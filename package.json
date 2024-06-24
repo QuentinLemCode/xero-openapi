@@ -1,6 +1,14 @@
 {
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "test:ts": "tsc --noEmit"
+  },
   "devDependencies": {
     "openapi-typescript": "^7.0.0",
     "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "openapi-fetch": "^0.10.1"
   }
 }
